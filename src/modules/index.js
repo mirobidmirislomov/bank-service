@@ -11,12 +11,12 @@ router
     .get('/company', company.GET)
     .get('/complex', complex.GET)
     .get('/room', room.GET)
-    .get('/bank', bank.GET)
+    .get('/benk', bank.GET)
     .get('/calculation', calculation.GET)
     .post('/addCompany', company.POST)
     .post('/addComplex', complex.POST)
     .post('/addRoom', room.POST)
-    .get('/banks', bank.GET_ALL_BANKS)
-    .post('/addBank', bank.POST)
+    .get('/benks', bank.GET_ALL_BANKS)
+    .post('/addBenk', bank.POST)
 
 module.exports = router
